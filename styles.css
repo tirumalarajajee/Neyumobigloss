@@ -1,0 +1,99 @@
+#scoreUI{
+
+  font-size: 36px;
+
+  color: #00FFD0;
+
+  margin-top: 10px;
+
+  font-weight: bold;
+}
+#streakUI{
+
+  font-size: 28px;
+
+  color: gold;
+
+  margin-top: 10px;
+
+  font-weight: bold;
+}
+#panel{
+
+  width: 100%;
+
+  text-align: center;
+
+  margin-top: 10px;
+}
+
+#emojiUI{
+
+  font-size: 90px;
+
+  margin-top: 10px;
+}
+
+#task{
+
+  font-size: 36px;
+
+  margin-top: 10px;
+}
+
+#bigTimer{
+
+  font-size: 42px;
+
+  font-weight: bold;
+
+  margin-top: 10px;
+
+  color: #00FFD0;
+}
+
+#progressBar{
+
+  width: 80%;
+
+  height: 28px;
+
+  background: #333;
+
+  margin: 20px auto;
+
+  border-radius: 14px;
+
+  overflow: hidden;
+}
+
+#progressFill{
+
+  height: 100%;
+
+  width: 0%;
+
+  background: #00FF99;
+}
+
+#scoreUI{
+
+  font-size: 34px;
+
+  color: #00FFD0;
+
+  margin-top: 12px;
+
+  font-weight: bold;
+}
+
+#streakUI{
+
+  font-size: 28px;
+
+  color: gold;
+
+  margin-top: 10px;
+
+  font-weight: bold;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+  <title>Tongue Trainer</title>
+  <link
+    rel="stylesheet"
+    href="styles.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script async
+src="https://docs.opencv.org/4.x/opencv.js"
+>
+</script>
+
+  
+</head>
+
+<body>
+
+<video
+  id="video"
+  autoplay
+  playsinline
+  style="display:none;">
+</video>
+
+<canvas id="canvas"></canvas>
+
+<div id="panel">
+
+  <div id="emojiUI">🙂</div>
+
+  <h3 id="task">
+    Loading...
+  </h3>
+
+  <p id="msg"></p>
+
+  <div id="bigTimer">
+    0.0s
+  </div>
+
+  <div id="progressBar">
+
+    <div id="progressFill"></div>
+
+  </div>
+
+  <div id="scoreUI">
+    Score: 0
+  </div>
+
+  <div id="streakUI"></div>
+
+</div>
+
+<script src="appmobtong_obfuscated.js"></script>
+
+</body>
+</html>
